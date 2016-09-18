@@ -18,8 +18,11 @@
         <activity
             android:name=".NowPlaying"
             android:label="@string/title_activity_now_playing" />
-        <activity android:name=".SongDetails"
-            android:label="Song Detail"/>
+        <activity
+            android:name=".SongDetails"
+            android:label="Song Detail" />
+        <activity android:name=".playlistDetail" />
+        <activity android:name=".myaccount"></activity>
     </application>
 
 </manifest>

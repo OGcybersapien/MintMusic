@@ -28,6 +28,7 @@
         android:layout_alignParentBottom="true"
         android:layout_toRightOf="@+id/nowPlayingButton"
         android:text="Playlist Details"
+        android:onClick="goToPlayListDetails"
         android:id="@+id/playListDetailButton"/>
 
     <Button
@@ -35,6 +36,7 @@
         android:layout_height="wrap_content"
         android:text="My Account"
         android:layout_alignParentBottom="true"
+        android:onClick="goToMyAccount"
         android:layout_toRightOf="@+id/playListDetailButton"/>
 
 </RelativeLayout>
