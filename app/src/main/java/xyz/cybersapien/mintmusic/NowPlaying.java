@@ -5,17 +5,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class NowPlaying extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_now_playing);
     }
 
-    public void goToNowPlaying(View v){
-        Intent intent = new Intent(this,NowPlaying.class);
-        //We'll need to add some data to the intent as and when required use .setData() Method.
+    public void songDetails(View v){
+        Intent intent = new Intent(this, SongDetails.class);
         startActivity(intent);
     }
 }

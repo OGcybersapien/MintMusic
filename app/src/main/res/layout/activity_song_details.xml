@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="xyz.cybersapien.mintmusic.SongDetails">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This Screen will show a song's details. The song name is passed as an intent from the source app, and is then processed by an AsyncTask
+        The Screen shall include an ImageView of the album art, the Song Name, Artists\' name, the main distribution company, the song language, release year and the length of the song
+        There will be a play button which adds this song to the Now Playing list and plays it. This is done by passing an intent to the now playing background service.
+        Apart from that, we need a back button in the action bar.
+        "/>
+
+
+</RelativeLayout>
