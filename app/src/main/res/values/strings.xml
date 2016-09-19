@@ -8,4 +8,8 @@
     <string name="playList_activity_label">Playlist Name here</string>
     <string name="my_account_activityName">My Account</string>
     <string name="myAccountDesc">This screen will display the user\' account information and settings. We will have a Pro option to add additional features account-wide, thereby making the service available across different devices. This will require the use of custom made API from the servers or from a third-party payment service like google play-billing depending on the region of the user. The activity will also show details of memory used by the downloaded songs, and an option to sync all songs with other devices and to clear all downloads(which on the back end will require the use of Media Storage and background downloads APIs). There will be options for social linking for accounts, providing access to account from google+, Facebook etc. Settings will also contain the option to select the audio-quality, and to sync over cellular networks. This screen is going to act like a Preferences screen, so we don\'t need access to any activity from here accept the back button.</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="playlist_details">Playlist Details</string>
+    <string name="my_account">My Account</string>
+    <string name="song_details">Song Details</string>
 </resources>

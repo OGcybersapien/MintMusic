@@ -17,7 +17,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:text="Now Playing"
+        android:text="@string/now_playing"
         android:onClick="goToNowPlaying"
         android:id="@+id/nowPlayingButton"
         />
@@ -27,14 +27,14 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_toRightOf="@+id/nowPlayingButton"
-        android:text="Playlist Details"
+        android:text="@string/playlist_details"
         android:onClick="goToPlayListDetails"
         android:id="@+id/playListDetailButton"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="My Account"
+        android:text="@string/my_account"
         android:layout_alignParentBottom="true"
         android:onClick="goToMyAccount"
         android:layout_toRightOf="@+id/playListDetailButton"/>
