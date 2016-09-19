@@ -20,6 +20,6 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:text="@string/song_details"
-        android:onClick="songDetails"/>
+        android:id="@+id/SongDetailsNowPlayingButton"/>
 
 </RelativeLayout>
