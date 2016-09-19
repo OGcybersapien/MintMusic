@@ -21,8 +21,10 @@
         <activity
             android:name=".SongDetails"
             android:label="Song Detail" />
-        <activity android:name=".playlistDetail" />
-        <activity android:name=".myaccount"></activity>
+        <activity android:name=".playlistDetail"
+            android:label="@string/playList_activity_label"/>
+        <activity android:name=".myaccount"
+            android:label="@string/my_account_activityName"/>
     </application>
 
 </manifest>

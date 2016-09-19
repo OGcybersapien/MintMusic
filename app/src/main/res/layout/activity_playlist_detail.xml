@@ -9,4 +9,18 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="xyz.cybersapien.mintmusic.playlistDetail">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/playlist_description"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="SONG DETAILS"
+        android:onClick="goToSongDetail"
+        />
+
 </RelativeLayout>
